@@ -7,6 +7,7 @@ on:
     # This workflow will run on pull requests targeting these branches.
     # Adjust if your main development/production branch has a different name.
     types: [opened, synchronize, reopened]
+
     branches:
       - main
       - master
