@@ -9,7 +9,6 @@ on:
     types: [opened, synchronize, reopened]
 
     branches:
-      - main
       - master
       # You can also include other branches if needed, e.g., 'develop'
       # - develop
