@@ -1,7 +1,8 @@
 name: Simple PR Test
 on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
   pull_request:
-    types: [opened, synchronize, reopened]
+    branches: [ "master" ]
 jobs:
   echo_test:
     runs-on: ubuntu-latest
