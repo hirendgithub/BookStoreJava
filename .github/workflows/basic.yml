@@ -1,0 +1,10 @@
+name: Simple PR Test
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  echo_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello
+        run: echo "Hello from PR!"
